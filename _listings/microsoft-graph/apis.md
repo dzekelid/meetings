@@ -12,8 +12,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Meetings
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/meetings/master/_listings/microsoft-graph/apis.md
 specificationVersion: "0.14"
 apis:
@@ -73,6 +73,34 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/meetings/master/_listings/microsoft-graph/usersiduserprincipalnamefindmeetingtimes-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/meetings/master/_listings/microsoft-graph/usersiduserprincipalnamefindmeetingtimes-post-openapi.md
+- name: Microsoft Graph API - User Find Meeting Times
+  x-api-slug: usersiduserprincipalnamefindmeetingtimes-post
+  description: 'user: findMeetingTimes Find meeting time suggestions based on organizer
+    and attendee availability, and time or location constraints specified as parameters.'
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
+  humanURL: https://developer.microsoft.com/en-us/graph/
+  baseURL: https://graph.microsoft.com//
+  tags: Microsoft, Files, Notes, Tasks, Stack Network, API Provider, Contacts, Emails,
+    Profiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/meetings/master/_listings/microsoft-graph/usersiduserprincipalnamefindmeetingtimes-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/meetings/master/_listings/microsoft-graph/usersiduserprincipalnamefindmeetingtimes-post-openapi.md
+- name: Microsoft Graph API - User Find Meeting Times
+  x-api-slug: mefindmeetingtimes-post
+  description: 'user: findMeetingTimes Find meeting time suggestions based on organizer
+    and attendee availability, and time or location constraints specified as parameters.'
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
+  humanURL: https://developer.microsoft.com/en-us/graph/
+  baseURL: https://graph.microsoft.com//
+  tags: Microsoft, Files, Notes, Tasks, Stack Network, API Provider, Contacts, Emails,
+    Profiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/meetings/master/_listings/microsoft-graph/mefindmeetingtimes-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/meetings/master/_listings/microsoft-graph/mefindmeetingtimes-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://messente.api.gallery.streamdata.io

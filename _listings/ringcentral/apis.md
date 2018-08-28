@@ -12,8 +12,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28867-deve
 x-kinRank: "7"
 x-alexaRank: "7180"
 tags: Meetings
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/meetings/master/_listings/ringcentral/apis.md
 specificationVersion: "0.14"
 apis:
@@ -37,6 +37,20 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/meetings/master/_listings/ringcentral/restapiv1-0accountaccountidextensionextensionidmeeting-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/meetings/master/_listings/ringcentral/restapiv1-0accountaccountidextensionextensionidmeeting-get-openapi.md
+- name: RingCentral Connect Platform API Explorer - Create Meetings [Beta]
+  x-api-slug: restapiv1-0accountaccountidextensionextensionidmeeting-post
+  description: "Creates a new meeting.\nApp Permission\nMeetings\nUser Permission\nMeetings\nUsage
+    Plan Group\nMedium\nError Codes\n\n \n  \n   HTTP Code\n   Error Code\n   Error
+    Message\n   \n \n\n400\nCMN-101\nParameter [schedule] value is invalid\n\n\n404\nCMN-102\nResource
+    for parameter [extensionId] is not found"
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28867-developer-ringcentral-com.jpg
+  humanURL: http://www.ringcentral.com
+  baseURL: https://platform.ringcentral.com//
+  tags: Telecommunications, ISP, Voice, Video Conferencing, Webinars, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/meetings/master/_listings/ringcentral/restapiv1-0accountaccountidextensionextensionidmeeting-post-openapi.md
 - name: RingCentral Connect Platform API Explorer - Get Meeting Info [Beta]
   x-api-slug: restapiv1-0accountaccountidextensionextensionidmeetingmeetingid-get
   description: "Returns a particular meetings details by ID.\nApp Permission\nMeetings\nUser
@@ -53,6 +67,38 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/meetings/master/_listings/ringcentral/restapiv1-0accountaccountidextensionextensionidmeetingmeetingid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/meetings/master/_listings/ringcentral/restapiv1-0accountaccountidextensionextensionidmeetingmeetingid-get-openapi.md
+- name: RingCentral Connect Platform API Explorer - Update Meeting
+  x-api-slug: restapiv1-0accountaccountidextensionextensionidmeetingmeetingid-put
+  description: "Modifies a particular meeting.\nApp Permission\nMeetings\nUser Permission\nMeetings\nUsage
+    Plan Group\nMedium\nError Codes\n\n \n  \n   HTTP Code\n   Error Code\n   Error
+    Message\n   \n \n\n400\nCMN-101\nParameter [password] value is invalid\n\n\n404\nCMN-102\nResource
+    for parameter [extensionId] is not found"
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28867-developer-ringcentral-com.jpg
+  humanURL: http://www.ringcentral.com
+  baseURL: https://platform.ringcentral.com//
+  tags: Telecommunications, ISP, Voice, Video Conferencing, Webinars, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/meetings/master/_listings/ringcentral/restapiv1-0accountaccountidextensionextensionidmeetingmeetingid-put-openapi.md
+- name: RingCentral Connect Platform API Explorer - Delete Meeting
+  x-api-slug: restapiv1-0accountaccountidextensionextensionidmeetingmeetingid-delete
+  description: |-
+    Deletes a scheduled meeting.
+    App Permission
+    Meetings
+    User Permission
+    Meetings
+    Usage Plan Group
+    Medium
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28867-developer-ringcentral-com.jpg
+  humanURL: http://www.ringcentral.com
+  baseURL: https://platform.ringcentral.com//
+  tags: Telecommunications, ISP, Voice, Video Conferencing, Webinars, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/meetings/master/_listings/ringcentral/restapiv1-0accountaccountidextensionextensionidmeetingmeetingid-delete-openapi.md
 - name: RingCentral Connect Platform API Explorer - End Meeting
   x-api-slug: restapiv1-0accountaccountidextensionextensionidmeetingmeetingidend-post
   description: "Ends a meetings which is in progress.\nApp Permission\nMeetings\nUser
@@ -104,6 +150,38 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/meetings/master/_listings/ringcentral/restapiv1-0accountaccountidextensionextensionidmeetingmeetingid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/meetings/master/_listings/ringcentral/restapiv1-0accountaccountidextensionextensionidmeetingmeetingid-get-openapi.md
+- name: RingCentral Connect Platform API Explorer - Update Meeting
+  x-api-slug: restapiv1-0accountaccountidextensionextensionidmeetingmeetingid-put
+  description: "Modifies a particular meeting.\nApp Permission\nMeetings\nUser Permission\nMeetings\nUsage
+    Plan Group\nMedium\nError Codes\n\n \n  \n   HTTP Code\n   Error Code\n   Error
+    Message\n   \n \n\n400\nCMN-101\nParameter [password] value is invalid\n\n\n404\nCMN-102\nResource
+    for parameter [extensionId] is not found"
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28867-developer-ringcentral-com.jpg
+  humanURL: http://www.ringcentral.com
+  baseURL: https://platform.ringcentral.com//
+  tags: Telecommunications, ISP, Voice, Video Conferencing, Webinars, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/meetings/master/_listings/ringcentral/restapiv1-0accountaccountidextensionextensionidmeetingmeetingid-put-openapi.md
+- name: RingCentral Connect Platform API Explorer - Delete Meeting
+  x-api-slug: restapiv1-0accountaccountidextensionextensionidmeetingmeetingid-delete
+  description: |-
+    Deletes a scheduled meeting.
+    App Permission
+    Meetings
+    User Permission
+    Meetings
+    Usage Plan Group
+    Medium
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28867-developer-ringcentral-com.jpg
+  humanURL: http://www.ringcentral.com
+  baseURL: https://platform.ringcentral.com//
+  tags: Telecommunications, ISP, Voice, Video Conferencing, Webinars, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/meetings/master/_listings/ringcentral/restapiv1-0accountaccountidextensionextensionidmeetingmeetingid-delete-openapi.md
 - name: RingCentral Connect Platform API Explorer - End Meeting
   x-api-slug: restapiv1-0accountaccountidextensionextensionidmeetingmeetingidend-post
   description: "Ends a meetings which is in progress.\nApp Permission\nMeetings\nUser
@@ -139,6 +217,187 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/meetings/master/_listings/ringcentral/restapiv1-0accountaccountidextensionextensionidmeetingserviceinfo-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/meetings/master/_listings/ringcentral/restapiv1-0accountaccountidextensionextensionidmeetingserviceinfo-get-openapi.md
+- name: RingCentral Connect Platform API Explorer - Get Meeting Service Info
+  x-api-slug: restapiv1-0accountaccountidextensionextensionidmeetingserviceinfo-get
+  description: "Returns information on dial-in numbers for meetings, support and international
+    dial-in numbers URIs and meeting account information.\nApp Permission\nMeetings\nUser
+    Permission\nMeetings\nUsage Plan Group\nLight\nError Codes\n\n \n  \n   HTTP Code\n
+    \  Error Code\n   Error Message\n   \n \n\n403\nCMN-401\nIn order to call this
+    API endpoint, application needs to have [Meetings] permission\n\n\n403\nCMN-408\nIn
+    order to call this API endpoint, user needs to have [Meetings] permission for
+    requested resource."
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28867-developer-ringcentral-com.jpg
+  humanURL: http://www.ringcentral.com
+  baseURL: https://platform.ringcentral.com//
+  tags: Telecommunications, ISP, Voice, Video Conferencing, Webinars, Relative Data,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/meetings/master/_listings/ringcentral/restapiv1-0accountaccountidextensionextensionidmeetingserviceinfo-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/meetings/master/_listings/ringcentral/restapiv1-0accountaccountidextensionextensionidmeetingserviceinfo-get-openapi.md
+- name: RingCentral Connect Platform API Explorer - End Meeting
+  x-api-slug: restapiv1-0accountaccountidextensionextensionidmeetingmeetingidend-post
+  description: "Ends a meetings which is in progress.\nApp Permission\nMeetings\nUser
+    Permission\nMeetings\nUsage Plan Group\nMedium\nError Codes\n\n \n  \n   HTTP
+    Code\n   Error Code\n   Error Message\n   \n \n\n404\nCMN-102\nResource for parameter
+    [meetingId] is not found"
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28867-developer-ringcentral-com.jpg
+  humanURL: http://www.ringcentral.com
+  baseURL: https://platform.ringcentral.com//
+  tags: Telecommunications, ISP, Voice, Video Conferencing, Webinars, Relative Data,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/meetings/master/_listings/ringcentral/restapiv1-0accountaccountidextensionextensionidmeetingmeetingidend-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/meetings/master/_listings/ringcentral/restapiv1-0accountaccountidextensionextensionidmeetingmeetingidend-post-openapi.md
+- name: RingCentral Connect Platform API Explorer - End Meeting
+  x-api-slug: restapiv1-0accountaccountidextensionextensionidmeetingmeetingidend-post
+  description: "Ends a meetings which is in progress.\nApp Permission\nMeetings\nUser
+    Permission\nMeetings\nUsage Plan Group\nMedium\nError Codes\n\n \n  \n   HTTP
+    Code\n   Error Code\n   Error Message\n   \n \n\n404\nCMN-102\nResource for parameter
+    [meetingId] is not found"
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28867-developer-ringcentral-com.jpg
+  humanURL: http://www.ringcentral.com
+  baseURL: https://platform.ringcentral.com//
+  tags: Telecommunications, ISP, Voice, Video Conferencing, Webinars, Relative Data,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/meetings/master/_listings/ringcentral/restapiv1-0accountaccountidextensionextensionidmeetingmeetingidend-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/meetings/master/_listings/ringcentral/restapiv1-0accountaccountidextensionextensionidmeetingmeetingidend-post-openapi.md
+- name: RingCentral Connect Platform API Explorer - End Meeting
+  x-api-slug: restapiv1-0accountaccountidextensionextensionidmeetingmeetingidend-post
+  description: "Ends a meetings which is in progress.\nApp Permission\nMeetings\nUser
+    Permission\nMeetings\nUsage Plan Group\nMedium\nError Codes\n\n \n  \n   HTTP
+    Code\n   Error Code\n   Error Message\n   \n \n\n404\nCMN-102\nResource for parameter
+    [meetingId] is not found"
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28867-developer-ringcentral-com.jpg
+  humanURL: http://www.ringcentral.com
+  baseURL: https://platform.ringcentral.com//
+  tags: Telecommunications, ISP, Voice, Video Conferencing, Webinars, Relative Data,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/meetings/master/_listings/ringcentral/restapiv1-0accountaccountidextensionextensionidmeetingmeetingidend-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/meetings/master/_listings/ringcentral/restapiv1-0accountaccountidextensionextensionidmeetingmeetingidend-post-openapi.md
+- name: RingCentral Connect Platform API Explorer - Delete Meeting
+  x-api-slug: restapiv1-0accountaccountidextensionextensionidmeetingmeetingid-delete
+  description: |-
+    Deletes a scheduled meeting.
+    App Permission
+    Meetings
+    User Permission
+    Meetings
+    Usage Plan Group
+    Medium
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28867-developer-ringcentral-com.jpg
+  humanURL: http://www.ringcentral.com
+  baseURL: https://platform.ringcentral.com//
+  tags: Telecommunications, ISP, Voice, Video Conferencing, Webinars, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/meetings/master/_listings/ringcentral/restapiv1-0accountaccountidextensionextensionidmeetingmeetingid-delete-openapi.md
+- name: RingCentral Connect Platform API Explorer - Delete Meeting
+  x-api-slug: restapiv1-0accountaccountidextensionextensionidmeetingmeetingid-delete
+  description: |-
+    Deletes a scheduled meeting.
+    App Permission
+    Meetings
+    User Permission
+    Meetings
+    Usage Plan Group
+    Medium
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28867-developer-ringcentral-com.jpg
+  humanURL: http://www.ringcentral.com
+  baseURL: https://platform.ringcentral.com//
+  tags: Telecommunications, ISP, Voice, Video Conferencing, Webinars, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/meetings/master/_listings/ringcentral/restapiv1-0accountaccountidextensionextensionidmeetingmeetingid-delete-openapi.md
+- name: RingCentral Connect Platform API Explorer - Delete Meeting
+  x-api-slug: restapiv1-0accountaccountidextensionextensionidmeetingmeetingid-delete
+  description: |-
+    Deletes a scheduled meeting.
+    App Permission
+    Meetings
+    User Permission
+    Meetings
+    Usage Plan Group
+    Medium
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28867-developer-ringcentral-com.jpg
+  humanURL: http://www.ringcentral.com
+  baseURL: https://platform.ringcentral.com//
+  tags: Telecommunications, ISP, Voice, Video Conferencing, Webinars, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/meetings/master/_listings/ringcentral/restapiv1-0accountaccountidextensionextensionidmeetingmeetingid-delete-openapi.md
+- name: RingCentral Connect Platform API Explorer - Update Meeting
+  x-api-slug: restapiv1-0accountaccountidextensionextensionidmeetingmeetingid-put
+  description: "Modifies a particular meeting.\nApp Permission\nMeetings\nUser Permission\nMeetings\nUsage
+    Plan Group\nMedium\nError Codes\n\n \n  \n   HTTP Code\n   Error Code\n   Error
+    Message\n   \n \n\n400\nCMN-101\nParameter [password] value is invalid\n\n\n404\nCMN-102\nResource
+    for parameter [extensionId] is not found"
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28867-developer-ringcentral-com.jpg
+  humanURL: http://www.ringcentral.com
+  baseURL: https://platform.ringcentral.com//
+  tags: Telecommunications, ISP, Voice, Video Conferencing, Webinars, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/meetings/master/_listings/ringcentral/restapiv1-0accountaccountidextensionextensionidmeetingmeetingid-put-openapi.md
+- name: RingCentral Connect Platform API Explorer - Update Meeting
+  x-api-slug: restapiv1-0accountaccountidextensionextensionidmeetingmeetingid-put
+  description: "Modifies a particular meeting.\nApp Permission\nMeetings\nUser Permission\nMeetings\nUsage
+    Plan Group\nMedium\nError Codes\n\n \n  \n   HTTP Code\n   Error Code\n   Error
+    Message\n   \n \n\n400\nCMN-101\nParameter [password] value is invalid\n\n\n404\nCMN-102\nResource
+    for parameter [extensionId] is not found"
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28867-developer-ringcentral-com.jpg
+  humanURL: http://www.ringcentral.com
+  baseURL: https://platform.ringcentral.com//
+  tags: Telecommunications, ISP, Voice, Video Conferencing, Webinars, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/meetings/master/_listings/ringcentral/restapiv1-0accountaccountidextensionextensionidmeetingmeetingid-put-openapi.md
+- name: RingCentral Connect Platform API Explorer - Get Meeting Info [Beta]
+  x-api-slug: restapiv1-0accountaccountidextensionextensionidmeetingmeetingid-get
+  description: "Returns a particular meetings details by ID.\nApp Permission\nMeetings\nUser
+    Permission\nMeetings\nUsage Plan Group\nLight\nError Codes\n\n \n  \n   HTTP Code\n
+    \  Error Code\n   Error Message\n   \n \n\n404\nCMN-102\nResource for parameter
+    [meetingId] is not found"
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28867-developer-ringcentral-com.jpg
+  humanURL: http://www.ringcentral.com
+  baseURL: https://platform.ringcentral.com//
+  tags: Telecommunications, ISP, Voice, Video Conferencing, Webinars, Relative Data,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/meetings/master/_listings/ringcentral/restapiv1-0accountaccountidextensionextensionidmeetingmeetingid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/meetings/master/_listings/ringcentral/restapiv1-0accountaccountidextensionextensionidmeetingmeetingid-get-openapi.md
+- name: RingCentral Connect Platform API Explorer - Get Meeting Info [Beta]
+  x-api-slug: restapiv1-0accountaccountidextensionextensionidmeetingmeetingid-get
+  description: "Returns a particular meetings details by ID.\nApp Permission\nMeetings\nUser
+    Permission\nMeetings\nUsage Plan Group\nLight\nError Codes\n\n \n  \n   HTTP Code\n
+    \  Error Code\n   Error Message\n   \n \n\n404\nCMN-102\nResource for parameter
+    [meetingId] is not found"
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28867-developer-ringcentral-com.jpg
+  humanURL: http://www.ringcentral.com
+  baseURL: https://platform.ringcentral.com//
+  tags: Telecommunications, ISP, Voice, Video Conferencing, Webinars, Relative Data,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/meetings/master/_listings/ringcentral/restapiv1-0accountaccountidextensionextensionidmeetingmeetingid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/meetings/master/_listings/ringcentral/restapiv1-0accountaccountidextensionextensionidmeetingmeetingid-get-openapi.md
 x-common:
 - type: x-blog
   url: https://medium.com/ringcentral-developers
